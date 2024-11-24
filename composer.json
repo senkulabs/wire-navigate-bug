@@ -10,6 +10,7 @@
         "calebporzio/sushi": "^2.5",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
+        "league/commonmark": "^2.5",
         "livewire/livewire": "^3.5",
         "livewire/volt": "^1.6"
     },
@@ -28,7 +29,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "helpers/index.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    @apply text-2xl;
+}
+
+h2 {
+    @apply text-xl;
+}
+
+ol {
+    @apply list-decimal mb-4;
+}
+
+.active {
+    @apply underline decoration-blue-500;
+}
+
+code {
+    @apply border bg-gray-200;
+}
