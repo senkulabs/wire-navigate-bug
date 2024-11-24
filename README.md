@@ -2,6 +2,18 @@
 
 Livewire `wire:navigate` is good but not perfect, right now. Let me show you what I mean by create this repo bug.
 
+## How to run?
+
+1. Clone the repository.
+
+```sh
+composer install
+cp .env.example .env
+php artisan key:generate
+npm install && npm run build
+composer run dev
+```
+
 ## Steps
 
 ### Step 1
